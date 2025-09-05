@@ -42,6 +42,13 @@ const performances: performance[] = [
         company: 'Santa Fe Symphony',
         year: '2024'
     },
+    {
+        title: 'Terra: Opera Preview',
+        role: 'Bass Soloist',
+        venue: 'SITE Santa Fe',
+        company: 'Santa Fe Symphony Chamber Singers',
+        year: '2022'
+    },
 ]
 
 export default function PerformerInfo() {
