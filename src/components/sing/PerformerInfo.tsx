@@ -2,8 +2,6 @@ import { Divider, Typography, Grid, Paper, Box, useTheme } from "@mui/material";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import 'swiper/modules/navigation/navigation.css';
-import 'swiper/modules/pagination/pagination.css';
 
 type performance = {
     title: string;

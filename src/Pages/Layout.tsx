@@ -21,21 +21,6 @@ export default function Layout() {
                 }}
             />
             <Container maxWidth='xl' sx={{ mt: 4, position: 'relative', minHeight: '100vh' }}>
-                {/* <AnimatePresence mode="wait" initial={false}>
-                    <motion.div
-                        key={location.key}
-                        variants={variants}
-                        initial="initial"
-                        animate="animate"
-                        exit="exit"
-                        transition={transition}
-                        style={{ width: '100%', willChange: 'transform, opacity' }}
-                    >
-                        <React.Suspense fallback={<Loading />}>
-                            <Outlet />
-                        </React.Suspense>
-                    </motion.div>
-                </AnimatePresence> */}
                 <React.Suspense fallback={<Loading />}>
                     <Outlet />
                 </React.Suspense>
