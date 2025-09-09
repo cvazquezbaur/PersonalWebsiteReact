@@ -1,4 +1,4 @@
-import { Container, Grid, Paper, Avatar, Typography, Box, Divider, Stack, Button } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 import SingBio from '../components/sing/SingBio';
 import { alpha } from '@mui/material/styles';
 import PerformerInfo from '../components/sing/PerformerInfo';
