@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Divider, Stack, Typography } from '@mui/material';
+import { Avatar, Box, Button, Stack, Typography } from '@mui/material';
 
 export default function SingBio() {
     return(

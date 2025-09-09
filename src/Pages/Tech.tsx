@@ -1,4 +1,4 @@
-import { Container, Grid, Stack } from '@mui/material';
+import { Grid, Stack } from '@mui/material';
 import TechBio from '../components/tech/TechBioContainer';
 import TechSkills from '../components/tech/TechSkills';
 import TechExperience from '../components/tech/TechExperience';
